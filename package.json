@@ -1,0 +1,44 @@
+{
+  "name": "@apiax/prettier-config",
+  "version": "1.0.0",
+  "description": "Apiax Shareable Prettier Configuration",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apiax/prettier-config.git"
+  },
+  "keywords": [
+    "prettier"
+  ],
+  "author": "Rafael Gomes <rafael.gomes@apiax.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/apiax/prettier-config/issues"
+  },
+  "homepage": "https://github.com/apiax/prettier-config#readme",
+  "devDependencies": {
+    "prettier": "3.3.3"
+  },
+  "peerDependencies": {
+    "prettier": "3.3.3",
+    "prettier-plugin-java": "2.6.4",
+    "prettier-plugin-organize-imports": "4.0.0"
+  },
+  "peerDependenciesMeta": {
+    "prettier": {
+      "optional": false
+    },
+    "prettier-plugin-java": {
+      "optional": true
+    },
+    "prettier-plugin-organize-imports": {
+      "optional": true
+    }
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
