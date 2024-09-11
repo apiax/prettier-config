@@ -20,15 +20,14 @@ module.exports = {
   jsxSingleQuote: true,
   bracketSpacing: true,
   arrowParens: 'avoid',
-  plugins: ['prettier-plugin-java', 'prettier-plugin-organize-imports'],
+  plugins: ['prettier-plugin-java'],
   overrides: [
     {
       files: '*.java',
       options: {
         parser: "java",
         printWidth: 140,
-        parser: 'java',
-        tabWidth: 4,
+        tabWidth: 4
       },
     },
   ]
