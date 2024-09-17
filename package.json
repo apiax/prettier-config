@@ -4,7 +4,7 @@
   "description": "Apiax Shareable Prettier Configuration",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepare": "husky || true"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,8 @@
   },
   "homepage": "https://github.com/apiax/prettier-config#readme",
   "devDependencies": {
+    "husky": "9.1.6",
+    "lint-staged": "15.2.10",
     "prettier": "3.3.3"
   },
   "peerDependencies": {
@@ -40,5 +42,8 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "lint-staged": {
+    "**/*.{json,js,jsx,cjs,mjs,ts,tsx,html,css,scss}": "npx prettier --write"
   }
 }

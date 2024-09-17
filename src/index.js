@@ -8,7 +8,7 @@ const overridableDefaults = {
   printWidth: 120,
   tabWidth: 2,
   useTabs: false,
-  endOfLine: 'lf',
+  endOfLine: 'lf'
 };
 
 /** @type {import('prettier').Config} */
@@ -20,15 +20,15 @@ module.exports = {
   jsxSingleQuote: true,
   bracketSpacing: true,
   arrowParens: 'avoid',
-  plugins: ['prettier-plugin-java'],
+  plugins: [],
   overrides: [
     {
       files: '*.java',
       options: {
-        parser: "java",
+        parser: 'java',
         printWidth: 140,
-        tabWidth: 4
-      },
-    },
+        tabWidth: 2
+      }
+    }
   ]
 };

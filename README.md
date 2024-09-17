@@ -22,7 +22,8 @@ This is Apiax's recommended Prettier configuration.
 - `plugins`: ['prettier-plugin-java']
 
 The following Prettier plugins are optional but recommend:
-* [prettier-plugin-java](https://www.jhipster.tech/prettier-java/) - plugin is used to format java code
+
+- [prettier-plugin-java](https://www.jhipster.tech/prettier-java/) - plugin is used to format java code
 
 ## Installation
 
@@ -54,7 +55,7 @@ or create a `.prettierrc.cjs` file with the following content:
 const prettierConfig = require('@apiax/prettier-config');
 
 module.exports = {
-  prettierConfig,
+  prettierConfig
 };
 ```
 
@@ -67,9 +68,9 @@ module.exports = {
   ...prettierConfig,
   // ...yourPrettierConfig
   plugins: [
-    ...prettierConfig.plugins,
+    ...prettierConfig.plugins
     // ...yourPlugins
-  ],
+  ]
 };
 ```
 
@@ -82,8 +83,8 @@ export default {
   ...prettierConfig,
   // ...yourPrettierConfig
   plugins: [
-    ...prettierConfig.plugins,
+    ...prettierConfig.plugins
     // ...yourPlugins
-  ],
+  ]
 };
 ```
