@@ -1,0 +1,9 @@
+.claude/
+.editorconfig
+.husky/
+.npmrc
+.nvmrc
+.prettierignore
+.prettierrc.json
+.vscode/
+CLAUDE.md
