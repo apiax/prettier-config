@@ -9,7 +9,7 @@ This is Apiax's recommended Prettier configuration.
 
 ## Features
 
-- `printWidth`: **100**
+- `printWidth`: **120**
 - `tabWidth`: **2**
 - `useTabs`: **false**
 - `endOfLine`: **lf**
@@ -19,11 +19,12 @@ This is Apiax's recommended Prettier configuration.
 - `jsxSingleQuote`: **true**
 - `bracketSpacing`: **true**
 - `arrowParens`: **avoid**
-- `plugins`: ['prettier-plugin-java']
+- `plugins`: [] _(consumers add plugins via extension)_
 
-The following Prettier plugins are optional but recommend:
+The following Prettier plugins are optional peer dependencies:
 
-- [prettier-plugin-java](https://www.jhipster.tech/prettier-java/) - plugin is used to format java code
+- [prettier-plugin-java](https://www.jhipster.tech/prettier-java/) - formats Java code
+- [prettier-plugin-organize-imports](https://github.com/simonhaenisch/prettier-plugin-organize-imports) - sorts and removes unused imports
 
 ## Installation
 

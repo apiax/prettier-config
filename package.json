@@ -20,14 +20,14 @@
   },
   "homepage": "https://github.com/apiax/prettier-config#readme",
   "devDependencies": {
-    "husky": "9.1.6",
-    "lint-staged": "15.2.10",
-    "prettier": "3.3.3"
+    "husky": "9.1.7",
+    "lint-staged": "16.4.0",
+    "prettier": "3.8.1"
   },
   "peerDependencies": {
-    "prettier": "3.3.3",
-    "prettier-plugin-java": "2.6.4",
-    "prettier-plugin-organize-imports": "4.0.0"
+    "prettier": "3.8.1",
+    "prettier-plugin-java": "2.8.1",
+    "prettier-plugin-organize-imports": "4.3.0"
   },
   "peerDependenciesMeta": {
     "prettier": {
