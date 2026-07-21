@@ -1,8 +1,11 @@
 {
   "name": "@apiax/prettier-config",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "Apiax Shareable Prettier Configuration",
   "main": "src/index.js",
+  "engines": {
+    "node": "^22.22.3 || ^24.15.0 || ^26.0.0"
+  },
   "scripts": {
     "prepare": "husky || true"
   },
@@ -20,14 +23,14 @@
   },
   "homepage": "https://github.com/apiax/prettier-config#readme",
   "devDependencies": {
-    "husky": "9.1.7",
-    "lint-staged": "16.4.0",
-    "prettier": "3.9.6"
+    "husky": "~9.1.7",
+    "lint-staged": "~17.1.0",
+    "prettier": "~3.9.6"
   },
   "peerDependencies": {
-    "prettier": "3.9.6",
-    "prettier-plugin-java": "2.10.3",
-    "prettier-plugin-organize-imports": "4.3.0"
+    "prettier": "~3.9.6",
+    "prettier-plugin-java": "~2.10.3",
+    "prettier-plugin-organize-imports": "~4.3.0"
   },
   "peerDependenciesMeta": {
     "prettier": {
