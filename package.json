@@ -47,6 +47,6 @@
     "access": "public"
   },
   "lint-staged": {
-    "**/*.{json,js,jsx,cjs,mjs,ts,tsx,html,css,scss}": "npx prettier --write"
+    "**/*.{json,js,jsx,cjs,mjs,ts,tsx,html,css,scss,md}": "npx prettier --write"
   }
 }

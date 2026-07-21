@@ -17,7 +17,7 @@ There is no build step or test suite. The pre-commit hook runs `npx lint-staged`
 ## Architecture
 
 - `src/index.js` — The sole export. Defines the Prettier config with overridable defaults (to prevent EditorConfig from overriding them) and language-specific overrides (e.g., Java).
-- `.prettierrc.json` — Used to format *this repo's own files* (not exported to consumers).
+- `.prettierrc.json` — Used to format _this repo's own files_ (not exported to consumers).
 - `.prettierignore` — Excludes `package.json` and `package-lock.json` from formatting.
 - Prettier plugins (`prettier-plugin-java`, `prettier-plugin-organize-imports`) are declared as optional `peerDependencies` — consumers install only what they need.
 
